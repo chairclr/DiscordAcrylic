@@ -247,7 +247,7 @@ electron.ipcMain.on("enable", (_, type) => {
     type = 1;
   }
   console.log("[Acrylic] Type: " + types[type]);
-  vibe?.applyEffect?.(mainWindow, types[type]);
+  vibe?.applyEffect?.(mainWindow, types[type], "00000050");
 });
 
 electron.ipcMain.on("disable", () => {
