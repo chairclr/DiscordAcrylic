@@ -684,7 +684,8 @@ button[aria-label="Open sticker picker"] {
 }
 
 .menu-2TXYjN {
-  background-color: #36393fd0 !important;
+  background-color: #00000035 !important;
+  
 }
 
 .channelHeader-DFRX8q {
@@ -760,4 +761,27 @@ button[aria-label="Open sticker picker"] {
 .clickableWrapper-2WTAkL,
 .lazyImg-ewiNCh {
   border-radius: 0px !important;
+}
+
+.submenu-3ycVEH {
+  background-color: var(--background-floating) !important;
+}
+
+.sidebarRegionScroller-FXiQOh {
+  background: transparent !important;
+}
+
+.fieldList-in8WkP {
+  background-color: transparent !important;
+}
+
+.premiumFeatureBannerBackground-Epwl-X {
+  display: none !important;
+}
+
+.info-3pQQBb::after {
+  content: "Using Acrylic theme";
+  color: var(--text-muted);
+  font-family: var(--font-primary);
+  font-size: 12px;
 }
