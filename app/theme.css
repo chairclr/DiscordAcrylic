@@ -572,10 +572,10 @@ div.gm-toasts > div {
 }
 
 .container-ZMc96U.themed-Hp1KC_,
-.scroller-WSmht3,
+
 .privateChannels-oVe7HL,
 .searchBar-3TnChZ {
-  background-color: #00000007 !important;
+  background-color: transparent !important;
 }
 
 .form-3gdLxP,
@@ -590,8 +590,9 @@ div.gm-toasts > div {
 .container-1oeRFJ,
 .member-2gU6Ar,
 .members-3WRCEx,
-.container-2o3qEW {
-  background-color: transparent !important;
+.container-2o3qEW,
+.scroller-WSmht3 {
+  background: transparent !important;
 }
 
 .typing-2J1mQU {
