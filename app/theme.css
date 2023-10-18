@@ -36,16 +36,23 @@ body,
 .appMount-2yBXZl,
 .app-2CXKsg,
 .bg-1QIAus,
-.members-3WRCEx,
-.members-3WRCEx > div,
-.guilds-2JjMmN,
-.container-1NXEtd,
 .channelName-3w2Y3c,
 .bodyInnerWrapper-2bQs1k,
 .member-48YF_l,
 .container-3wLKDe,
 .content-1jQy2l {
   background: #0000000f !important;
+}
+
+.guilds-2JjMmN,
+.container-1NXEtd {
+  background: transparent !important;
+}
+
+.members-2y1nVj,
+.members-2y1nVj > div,
+.container-2vWgD2 {
+  background: transparent !important;
 }
 
 .cooldownWrapper-2k1jHK {
@@ -165,7 +172,8 @@ body,
   box-shadow: none;
 }
 
-.scroller-305q3I {
+.scroller-305q3I,
+.scroller-3X7KbA {
   background-color: transparent;
 }
 
@@ -606,7 +614,7 @@ button[aria-label="Open sticker picker"] {
 }
 
 .panels-3wFtMD {
-  background-color: #0000000f !important;
+  background-color: transparent !important;
 }
 
 .container-ZMc96U.themed-Hp1KC_ {
